@@ -1,0 +1,39 @@
+# BEGIN_KITTY_THEME
+ Gruvbox Dark
+include current-theme.conf
+# END_KITTY_THEME
+
+# ctrl + shift + enter nueva ventana
+# ctrl + shift + l reorganiza las ventanas
+# ctrl + shift + r resize las ventanas
+# ctrl + flechas cambian entre ventanas
+# ctrl + shift + t abre otra terminal
+# ctrl + shift + alt + t nombro una terminal
+# ctrl + shift + flecha para moverme entre ellas
+
+
+
+map ctrl+left neighboring_window left
+map ctrl+right neighboring_window right
+map ctrl+up neighboring_window up
+map ctrl+down neighboring_window down
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+v paste_from_clipboard
+#map ctrl + shift + enter new_window_with_cwd
+#map ctrl + shift + t new_tab_with_cwd
+
+
+cursor_shape beam
+cursor_beam_thickness 1.8
+mouse_hide_wait 3.0
+detect_urls yes
+repaint_delay 3
+sync_to_monitor yes
+tab_bar_style powerline
+inactive_tab_background #e06c75
+active_tab_background #98c379
+inactive_tab_foreground #000000
+tab_bar_margin_color black
+
+
+
